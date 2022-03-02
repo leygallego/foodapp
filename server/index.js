@@ -6,7 +6,7 @@ const FoodModel = require("./models/Food")
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://leyveloper:FoodApp@foodapp.wcgbl.mongodb.net/food?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser : true,
 })
 
